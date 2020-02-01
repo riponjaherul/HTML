@@ -9,6 +9,18 @@
  - The text inside a **`<pre>`** element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
  - Browsers display `<strong>` as `<b>`, and `<em>` as `<i>`. However, there is a difference in the meaning of these tags: `<b>` and `<i>` defines bold and italic text, but `<strong>` and `<em>` means that the text is "important".
  - Without a forward slash at the end of sub-folder addresses, you might generate two requests to the server. Many servers will automatically add a forward slash to the end of the address, and then create a new request.
+ - 
+**Image Tag**
  - ***In `<img>` Tag***, The `alt` attribute is required. A web page will not validate correctly without it.
  - ***In `<img>` Tag***,  Always specify the width and height of an image. If width and height are not specified, the page might flicker while the image loads.
  - ***In `<img>` Tag***, `border:0;` is added to prevent IE9 (and earlier) from displaying a border around the image (when the image is a link).
+
+**Table Tag**
+ - If the table has collapsed borders, `border-spacing` has no effect.
+ - The `<caption>` tag must be inserted immediately after the `<table>` tag.
+
+**Block**
+ - A block-level element **`<div>, <address>, <h1...h6>, etc`** always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+ - An inline element **`<span>`** does not start on a new line and only takes up as much width as necessary.
+ - An HTML element can only have one unique **ID** that belongs to that single element, while a **CLASS** name can be used by multiple elements
+
