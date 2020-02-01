@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML List</title>
+    </head>
+    <body>
+        <h3>Unordered List</h3>
+        <!-- <ul style="list-style-type:disc"> -->
+        <!-- <ul style="list-style-type:square"> -->
+        <!-- <ul style="list-style-type:circle"> -->
+        <ul style="list-style-type:none">
+            <li>Ripon</li>
+            <li>Kafi</li>
+            <li>Amit</li>
+        </ul>
+        <hr>
+        <h2>Ordered List</h2>
+        <!-- <ol type="1"> -->
+        <!-- <ol type="A"> -->
+        <!-- <ol type="a"> -->
+        <ol type="i">
+            <li>Ripon</li>
+            <li>Kafi</li>
+            <li>Amit</li>
+        </ol>
+        <hr>
+        <h2>Description List</h2>
+        <dl>
+            <dt>Ripon</dt>
+            <dd>- Software Engineer</dd>
+            <dt>Kafi</dt>
+            <dd>- Junior Manager</dd>
+        </dl>
+        <hr>
+        <h2>Nested List</h2>
+        <ul>
+            <li>Ripon
+                <ul>
+                    <li>Php</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                </ul>
+            </li>
+            <li>Kafi</li>
+            <li>Amit</li>
+        </ul>
+        <hr>
+        <h3>Control List Counting</h3>
+        <ol start="51">
+            <li>Ripon</li>
+            <li>Amit</li>
+            <li>Kafi</li>
+        </ol>
+        <h3>Horizontal List with CSS</h3>
+        <style>
+            ul#menu{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+
+            #menu li{
+                float: left;
+            }
+            #menu li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            #menu li a:hover{
+                background-color: #000;
+            }
+        </style>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </body>
+</html>
