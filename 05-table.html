@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table</title>
+        <style>
+            table#t01{
+                width: 100%;
+            }
+            table#t01, th, td{
+                border: 1px solid #000;
+                border-collapse: collapse;
+            }
+            table#t01 tr:nth-child(even){
+                color: #fff;
+                background-color: #111;
+            }
+            table#01 tr:nth-child(odd){
+                color: #000;
+                background-color: #eee;
+            }
+            /* table{
+                border-spacing: 5px;
+            }
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            } */
+        </style>
+    </head>
+    <body>
+        <table id="t01">
+            <caption>Student Details</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll Number</th>
+                    <th>Subject</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ripon</td>
+                    <td>71</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>Ripon</td>
+                    <td>71</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>Ripon</td>
+                    <td>71</td>
+                    <td>CSE</td>
+                </tr>
+                <tr>
+                    <td>Ripon</td>
+                    <td>71</td>
+                    <td>CSE</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
