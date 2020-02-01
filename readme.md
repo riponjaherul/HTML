@@ -24,3 +24,6 @@
  - An inline element **`<span>`** does not start on a new line and only takes up as much width as necessary.
  - An HTML element can only have one unique **ID** that belongs to that single element, while a **CLASS** name can be used by multiple elements
 
+**Script**
+ - `<script>` Defines a client-side script.
+ - `<noscript>` Defines an alternate content for users that do not support client-side scripts
