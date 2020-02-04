@@ -34,6 +34,50 @@
 		 - `<img src="/images/picture.jpg" alt="Mountain">`
 		 - `<img src="images/picture.jpg" alt="Mountain">`
 		 - `<img src="../images/picture.jpg" alt="Mountain">`
-- It is best practice to use relative file paths (if possible) 
+ - It is best practice to use relative file paths (if possible) 
 	- *When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.*
 
+**When making responsive web pages, add the following `<meta>` element in all your web pages**
+
+ - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+**Responsive Text**
+
+ - `<p style="font-size:5vw;">` Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the view-port width.
+
+**Computer Code**
+
+ - The HTML `<kbd>` element represents user input, like keyboard input or voice commands.
+ - The HTML `<samp>` element represents output from a program or computing system.
+ - The HTML `<code>` element defines a fragment of computer code, Text surrounded by `<code>` tags is typically displayed in a monospace font.
+ - The HTML `<var>` element defines a variable, Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.
+
+**What is Character Encoding?**
+
+ - ASCII was the first **character encoding standard** (also called character set). ASCII defined 128 different alphanumeric characters that could be used on the internet: numbers (0-9), English letters (A-Z), and some special characters like ! $ + - ( ) @ < > .
+ - ISO-8859-1 was the default character set for HTML 4. This character set supported 256 different character codes.
+ - ANSI (Windows-1252) was the original Windows character set. ANSI is identical to ISO-8859-1, except that ANSI has 32 extra characters.
+ - Because ANSI and ISO-8859-1 were so limited, HTML 4 also supported UTF-8.
+ - UTF-8 (Unicode) covers almost all of the characters and symbols in the world.
+ - If a browser detects ISO-8859-1 in a web page, it defaults to ANSI.
+
+**URL - Uniform Resource Locator**
+
+ - `scheme(http/https)://prefix.domain:port/path/filename`
+ - ***URL Encoding*** : 
+		 - URL encoding converts non-ASCII characters into a format that can be transmitted over the Internet.
+		 - URL encoding replaces non-ASCII characters with a "%" followed by hexadecimal digits.
+		 - URLs cannot contain spaces. URL encoding normally replaces a space with a plus (+) sign, or %20.
+
+**What Is XHTML**
+
+ - XHTML stands for E**X**tensible **H**yper**T**ext **M**arkup **L**anguage
+ - XHTML is almost identical to HTML
+ - XHTML is stricter than HTML
+ - XHTML is HTML defined as an XML application
+ - XHTML is supported by all major browsers
+
+**HTML Forms**
+
+ - The length of a ***GET URL*** is limited (2048 characters)
+ - ***POST*** has no size limitations, and can be used to send large amounts of data.
