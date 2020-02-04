@@ -81,3 +81,6 @@
 
  - The length of a ***GET URL*** is limited (2048 characters)
  - ***POST*** has no size limitations, and can be used to send large amounts of data.
+ - ***Attribute : accept-charset*** Specifies the charset used in the submitted form (default: the page charset).
+ - If the `type` attribute is omitted, the input field gets the default type: "text".
+
