@@ -27,3 +27,13 @@
 **Script**
  - `<script>` Defines a client-side script.
  - `<noscript>` Defines an alternate content for users that do not support client-side scripts
+ 
+**File Path**
+ - Absolute File Paths : `<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">`
+ - Relative File Paths : 
+		 - `<img src="/images/picture.jpg" alt="Mountain">`
+		 - `<img src="images/picture.jpg" alt="Mountain">`
+		 - `<img src="../images/picture.jpg" alt="Mountain">`
+- It is best practice to use relative file paths (if possible) 
+	- *When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.*
+
