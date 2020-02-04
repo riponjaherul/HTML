@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Responsive</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Responsive Image</h2>
+        <p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
+        <picture>
+            <source srcset="img/1.jpg" media="(max-width:500px)">
+            <source srcset="img/2.jpg" media="(max-width:800px)">
+            <source srcset="img/3.jpg" media="(max-width:1000px)">
+            <img src="img/mac.jpg" width="100%">
+        </picture>
+        <hr>
+        <h2>Responsive Text</h2>
+        <p style="font-size:5vw">Resize the browser window to see how the text size scales</p>
+    </body>
+</html>
