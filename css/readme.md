@@ -26,3 +26,9 @@
 	-  **Overflow : Auto:** The `auto` value is similar to `scroll`, but it adds scrollbars only when necessary.
 	- **overflow-x:  hidden :** Hide horizontal scrollbar.
 	- **overflow-y:  scroll:** Add vertical scrollbar
+- **What is box-sizing?** 
+	- You can easily create three floating boxes side by side. However, when you add something that enlarges the width of each box (e.g. padding or borders), the box will break. The `box-sizing` property allows us to include the padding and border in the box's total width (and height), making sure that the padding stays inside of the box and that it does not break.
+
+- Compared to `display: inline`, the major difference is that `display: inline-block` allows to set a width and height on the element.
+- Compared to `display: block`, the major difference is that `display: inline-block` does not add a line-break after the element, so the element can sit next to other elements.
+- To horizontally center a block element (like div), use `margin: auto;`
