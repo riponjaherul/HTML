@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Web Layouts</title>
+<style>
+    #main{
+        margin: 10px;
+    }
+    #header, #footer{
+        padding: 50px;
+        font-size: 50px;
+        background-color: darkgray;
+    }
+    #main-content{
+        float: left;
+        padding: 10px;
+        background-color: darkgreen;
+    }
+    #main-content.navigation{
+        /* float: left; */
+        width: 25%;
+    }
+    #main-content.content{
+        /* float: left; */
+        width: 75%;
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">Header</div>
+        <div id="main-content">
+            <div id="navigation">Navigation</div>
+            <div id="content">COntent</div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+</html>
