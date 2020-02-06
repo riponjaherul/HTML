@@ -11,3 +11,18 @@
 - Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.
 - For W3C compliant CSS: If you define the `color` property, you must also define the `background-color`.
 - If you do not specify a font size, the default size for normal text, like paragraphs, is 16px (16px=1em). Calculate Pixel with Em = ***`pixels/16= em`***
+- ***CSS Position***
+	- Static : Not required to use, it normal document flow.
+	- Relative : Same as Static, but it can change all over the document such as (Left, Right, Top, Bottom)
+	- Absolute : Out from normal document flow and change all over document by (Top, Left, Right, Bottom).
+	- Fixed : Fixed the div if other content or what ever else.  
+
+- ***CSS Overflow***
+	- The `overflow` property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+	- The `overflow` property only works for block elements with a specified height.
+	- **Overflow : Visible :** Show content outside div, but not clipped.
+	- **Overflow : Hidden:** Don't show content outside of div, clipped the content.
+	- **Overflow : Scroll:** Add scroll in vertical and horizontally, if content occupied, also show scrollbar.
+	-  **Overflow : Auto:** The `auto` value is similar to `scroll`, but it adds scrollbars only when necessary.
+	- **overflow-x:  hidden :** Hide horizontal scrollbar.
+	- **overflow-y:  scroll:** Add vertical scrollbar
