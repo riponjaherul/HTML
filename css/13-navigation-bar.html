@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full-height Fixed Vertical Navbar</title>
+<style>
+    body{
+        margin: 0;
+    }
+   ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       width: 20%;
+       height: 100%;
+       position: fixed;
+       background-color: #aaa;
+       overflow: auto;
+   }
+   ul a{
+       display: block;
+       padding: 10px;
+       text-decoration: none;
+       color: #fff;
+       /* color: #000;
+       background-color: #fff; */
+   }
+   ul a:hover{
+       background-color: #444;
+   }
+   ul a.active{
+       background-color: green;
+   }
+   div{
+       /* width: 80%; */
+       margin-left: 20%;
+       padding: 10px;
+       height: 1000px;
+   }
+</style>
+</head>
+<body>
+<ul>
+    <li><a class="active" href="#Home">Home</a></li>
+    <li><a href="#AboutUs">About Us</a></li>
+    <li><a href="#Gallery">Gallery</a></li>
+    <li><a href="#News">News</a></li>
+    <li><a href="#ContactUs">Contact Us</a></li>
+</ul>
+<div>
+    <h3>Fixed Full-height Side Nav</h3>
+    <h6>Try to scroll this area, and see how the sidenav sticks to the page</h6>
+    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+    <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+</div>
+</body>
+</html>
