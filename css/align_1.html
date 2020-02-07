@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Alignmnet</title>
+<style>
+    /*Without overflow : auto, image show outside the div*/
+    .clearfix{
+        overflow: auto;
+    }
+    div{
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #000;
+    }
+    .main,img{
+        float: right;
+    }
+</style>
+</head>
+<body>
+    <div class="clearfix">
+        <img src="img/1.jpg" width="170" height="200">
+        In this example, the image is taller than the element containing it, and it is In this example, the image is taller than the element containing it, and it is f In this example, the image is taller than the element containing it, and it is f In this example, the image is taller than the element containing it, and it is f floated, so it overflows outside of its container:
+    </div>
+</body>
+</html>
