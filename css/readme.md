@@ -31,4 +31,6 @@
 
 - Compared to `display: inline`, the major difference is that `display: inline-block` allows to set a width and height on the element.
 - Compared to `display: block`, the major difference is that `display: inline-block` does not add a line-break after the element, so the element can sit next to other elements.
-- To horizontally center a block element (like div), use `margin: auto;`
+- **Alignment :**
+	- To horizontally center a block element (like div), use `margin: auto;`
+	- To center an image, set left and right margin to `auto` and make it into a `block` element:
