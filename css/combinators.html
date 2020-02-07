@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Combinators</title>
+<style>
+    body{
+        margin: 20px 200px;
+    }
+    /*Descendant Selector*/
+    /* div p{
+        background-color: springgreen;
+    } */
+    
+    /*Child Selector*/
+    /* div > p{
+        background-color: springgreen;
+    } */
+    
+    /*Adjacent Sibling Selector*/
+    div + p {
+        background-color: yellow;
+    }
+
+    /*General Sibling Selector*/
+    /* div ~ p {
+        background-color: yellow;
+    } */
+</style>
+</head>
+<body>
+    <div>
+        <p>This Paragraph 1</p>
+        <p>This Paragraph 2</p>
+        <strong><p>This Paragraph 3</p></strong>
+        <p>This Paragraph 4</p>
+    </div>
+    <p>This Paragraph 5</p>
+    <p>This Paragraph 6</p>
+</body>
+</html>
