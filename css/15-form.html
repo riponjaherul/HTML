@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Form</title>
+<style>
+    input{
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 2px solid #444;
+        border-radius: 4px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    input[type=text]:focus{
+        background-color: cyan;
+    }
+    input[type=password]:focus{
+        border: 2px solid red;
+    }
+    input[name='search']{
+        width: 30%;
+        font-size: 20px;
+        background-color: #fff;
+        background-image: url('img/search.png');
+        background-position: 10px 20px;
+        background-repeat: repeat-y;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.2s;
+    }
+    input[name='search']:focus{
+        width: 100%;
+        background-color: #eee;
+    }
+</style>
+</head>
+<body>
+
+<h2>CSS Form</h2>
+<p>Move the mouse over the text below to open the dropdown content.</p>
+<!-- <input type="text" name="name" value=""> -->
+<input type="text" name="search" value="">
+<!-- <input type="password" name="name" value=""> -->
+</body>
+</html>
