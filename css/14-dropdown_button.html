@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Dropdown Button</title>
+<style>
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    button{
+        /* float: right; */
+        background-color: green;
+        width: 100px;
+        color: #fff;
+        padding: 10px 16px;
+        cursor: pointer;
+        border: none;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+        display: block;
+        padding: 10px 15px;
+        background-color: #fff;
+        width: 100px;
+        font-size: 20px;
+        color: black;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-content{
+        display: none;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    a:hover{
+        background-color: #aaa;
+    }
+    .dropdown:hover button{
+        background-color: chartreuse;
+    }
+</style>
+</head>
+<body>
+
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the text below to open the dropdown content.</p>
+
+<div class="dropdown" style="float: left;">
+    <button>Click</button>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+</div>
+<div class="dropdown" style="float: right;">
+    <button>Click</button>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+</div>
+</body>
+</html>
