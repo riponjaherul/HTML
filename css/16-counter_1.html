@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Counter</title>
+<style>
+    body{
+        counter-reset: section;
+    }
+    h2{
+        counter-reset: subsection;
+    }
+    h2::before{
+        counter-increment: section;
+        content: 'Section ' counter(section) ' : ';
+    }
+    h5::before{
+        counter-increment: subsection;
+        content: 'Sub Section 'counter(subsection)' : ';
+    }
+</style>
+</head>
+<body>
+    <h2>Index</h2>
+    <h5>Chapter 1</h5>
+    <h5>Chapter 2</h5>
+    <h5>Chapter 3</h5>
+    <h5>Chapter 4</h5>
+    <h2>Content</h2>
+    <h5>Chapter 1</h5>
+    <h5>Chapter 2</h5>
+    <h5>Chapter 3</h5>
+    <h5>Chapter 4</h5>
+    <h5>Chapter 5</h5>
+    <h5>Chapter 6</h5>
+    <h5>Chapter 7</h5>
+    <h2>Navbar</h2>
+    <h5>Chapter 1</h5>
+    <h5>Chapter 2</h5>
+    <h5>Chapter 3</h5>
+    <h5>Chapter 4</h5>
+    <h5>Chapter 5</h5>
+    <h5>Chapter 6</h5>
+</body>
+</html>

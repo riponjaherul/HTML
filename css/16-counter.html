@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Counter</title>
+<style>
+    body{
+        counter-reset: count;
+    }
+    h4::before{
+        counter-increment: count;
+        content: 'Section 'counter(count)' : ';
+    }
+</style>
+</head>
+<body>
+    <h2>CSS Counter</h2>
+    <h4>Ripon</h4>
+    <h4>Kafi</h4>
+    <h4>Arman</h4>
+    <h4>Sadik</h4>
+    <h4>Touhid</h4>
+</body>
+</html>
