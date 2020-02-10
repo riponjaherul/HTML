@@ -1,0 +1,42 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: #eee;
+}
+
+ul li{
+    cursor: pointer;
+    display: block;
+    background-color: #444;
+}
+
+#vertical{
+    width: 8%;
+}
+
+#vertical li{
+    padding: 25px;
+}
+
+#horizontal{
+    width: 80%;
+}
+
+#horizontal li{
+    float: left;
+    padding: 25px 40px;
+}
+
+ul li:hover{
+    background: #111;
+}
+
+ul li.active{
+    background: green;
+}
+
+
