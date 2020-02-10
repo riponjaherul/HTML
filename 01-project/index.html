@@ -7,56 +7,68 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <header>
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" class="logo">
             <nav>
-                <a href="">Home</a>
-                <a href="">Service</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="#">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+                <ul class="hide-mobile">
+                    <li>
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
             </nav>
         </header>
         <section>
             <img src="images/server.svg" alt="server">
             <h1>Web Hosting for the Modern Era</h1>
-            <p>Go serverless and pay only for what you use.</p>
+            <p class="subhead">Go serverless and pay only for what you use.</p>
             <img src="images/scroll.svg" alt="scroll down">
         </section>
     </div>
-    <div>
-        <ul>
-            <li>
-                <img src="images/icon-1.svg" alt="Calendar icon">
+    <div class="blue-container">
+        <div>
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="Calendar icon">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="Calendar icon">
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </li>
-            <li>
-                <img src="images/icon-2.svg" alt="Calendar icon">
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </li>
-            <li>
-                <img src="images/icon-3.svg" alt="Calendar icon">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-            </li>
-        </ul>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="Calendar icon">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                </li>
+            </ul>
+        </div>
     </div>
     <div>
-        <ul>
-            <li>
-                <figure>
-                    <img src="images/user1.png" alt="User testimonial picture">
+        <div>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="User testimonial picture">
+                            <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
+                            <figcaption>- Jane Doe</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="User testimonial picture">
                         <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                        <figcaption>- Jane Doe</figcaption>
-                </figure>
-            </li>
-            <li>
-                <figure>
-                    <img src="images/user2.png" alt="User testimonial picture">
-                    <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                    <figcaption>- John Doe</figcaption>
-                </figure>
-            </li>
-        </ul>
+                        <figcaption>- John Doe</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="container">
         <h2>Start your free trial now!</h2>
@@ -64,14 +76,16 @@
     </div>
     <footer>
         <div>
-            <a href="">
-                <img src="images/logo-white.svg" alt="logo">
-                <p>Melrose Place, 90210<br>USA</p>
-                <Ul>
-                    <li>Terms of Service</li>
-                    <li>Privacy Policy</li>
-                </Ul>
-            </a>
+            <div>
+                <a href="">
+                    <img src="images/logo-white.svg" alt="logo" class="logo">
+                    <p>Melrose Place, 90210<br>USA</p>
+                    <Ul>
+                        <li>Terms of Service</li>
+                        <li>Privacy Policy</li>
+                    </Ul>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
