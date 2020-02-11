@@ -84,6 +84,7 @@ header #top nav{
 
 header #slider{
     min-height: var(--header-height-slider);
+    border: 2px solid aqua;
 }
 /*
     @End=> Header Part
@@ -119,94 +120,3 @@ footer #footer-bottom{
 /*
     @End=> Footer Part
 */
-
-
-/*
-header{
-    display: flex;
-    width: 100%;
-    min-height: 120px;
-    align-items: center;
-    text-align: center;
-    background-color: blue;
-    padding: 0;
-}
-
-header #logo{
-    width: 30%;
-    background-color: brown;
-}
-
-header nav{
-    width: 70%;
-    background-color: coral;
-}
-
-header nav ul{
-    list-style-type: none;
-    padding: 0 0 0 15%;
-    margin: 0;
-}
-
-header nav ul li{
-    float: left;
-    padding: 12px 25px;
-    display: block;
-}
-
-header nav ul li.active{
-    border-radius: 10px;
-    background-color: green;
-}
-
-#slider{
-    display: flex;
-    width: 100%;
-    min-height: 380px;
-    align-items: center;
-    background-color: crimson;
-}
-
-#slider div{
-    padding: 200px;
-}
-#slider, #sliderContent{
-    width: 40%;
-    background-color: greenyellow;
-}
-
-#slider #sliderImage{
-    width: 60%;
-    background-color: bisque;
-}
-
-#content{
-    width: 100%;
-    min-height: 1080px;
-    background-color: darkgreen;
-}
-
-#content, #service{
-    min-height: 400px;
-    background-color: darkkhaki;
-}
-
-#content, #latestWork{
-    min-height: 680px;
-    background-color: darkseagreen;
-}
-
-footer{
-    min-height: 440px;
-    background-color: darkslateblue;
-}
-
-footer #footerTop{
-    min-height: 360px;
-    background-color: deeppink;
-}
-
-footer #footerBottom{
-    min-height: 60px;
-    background-color: firebrick;
-} */
