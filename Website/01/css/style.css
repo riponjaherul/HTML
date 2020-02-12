@@ -129,6 +129,12 @@ header #slider{
     height: 100%;
 }
 
+#slider, #slider-right{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
 #circle{
     height: 350px;
     width: 350px;
