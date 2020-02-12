@@ -85,7 +85,6 @@ header #top nav{
 header #slider{
     min-height: var(--header-height-slider);
     width: 100%;
-    border: 2px solid aqua;
 }
 
 #slider, #slider-left{
@@ -130,12 +129,14 @@ header #slider{
 }
 
 #slider, #slider-right{
+    position: relative;
     float: left;
     width: 50%;
     height: 100%;
 }
 
 #circle{
+    position: absolute;
     height: 350px;
     width: 350px;
     margin-top: 0px;
@@ -146,12 +147,21 @@ header #slider{
 }
 
 #small-circle{
+    position: absolute;
     height: 310px;
     width: 310px;
     border-radius: 50%;
     margin-top: 20px;
     margin-left: 20px;
     background-color: #333333;
+}
+
+#small-circle p{
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
 }
 /*
     @End=> Header Part
