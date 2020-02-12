@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, p{
+h1, h2, h6, p{
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -71,14 +71,16 @@ header nav ul{
 }
 
 header nav ul li{
+    cursor: pointer;
     float: left;
     padding: 12px 25px;
     display: block;
 }
 
 header nav ul li.active{
+    color: #000;
     border-radius: 10px;
-    background-color: green;
+    background-color: var(--primary-color);
 }
 
 header #top nav{
@@ -178,15 +180,15 @@ header #slider{
 #main-content{
     min-height: var(--content-height);
     background-color: var(--content-bg-color);
-    border: 1px solid bisque;
+    /* border: 1px solid bisque; */
 }
 
 #content-top{
     position: relative;
+    float: left;
     width: 100%;
     min-height: 346px;
     padding: 40px 100px;
-    border: 2px solid green;
 }
 
 .services{
@@ -232,10 +234,52 @@ header #slider{
 }
 
 #content-bottom{
+    float: left;
     width: 100%;
     min-height: 521px;
-    border: 2px solid lawngreen;
 }
+
+#content-bottom > #content-title{
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: azure;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px 2px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+#content-bottom > #content-bottom-details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 100px;
+}
+#content-bottom-details > div {
+    position: relative;
+    float: left;
+    color: #fff;
+    background-color: #333;
+    width: 250px;
+    height: 180px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 60px;
+    outline-style: solid;
+    outline-color: #fff;
+  }
+
+  #content-bottom-details > div > div{
+      position: absolute;
+      height: 20px;
+      width: 100%;
+      background-color: #111;
+      bottom: 0;
+  }
 /*
     @End=> Main Part
 */
