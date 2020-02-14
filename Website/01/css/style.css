@@ -19,6 +19,16 @@
     --footer-buttom-bg-color : #2b2b2b;
 }
 
+button{
+    margin-top: 10px;
+    padding: 5px 14px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
 /*
     @Start => Header Part
 */
@@ -93,4 +103,104 @@
 }
 /*
     @End => Header Part
+*/
+
+/*
+    @Start => Slider Part
+*/
+#slider {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    color: #ddd;
+    background-color: var(--header-bg-color);
+}
+
+#slider-left {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#slider-left h1{
+    font-size: 2.6em;
+    line-height: 0.9em;
+    font-weight: 100;
+    padding-right: 40%;
+}
+
+#slider-left p{
+    font-size: 0.8em;
+    font-weight: 70;
+    padding-top: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    color: #aaa;
+}
+
+#slider-right {
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+#circle{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: #6b6b6b;
+}
+
+#small-circle{
+    position: absolute;
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #333333;
+}
+
+#small-circle p{
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width:600px){
+    #slider {
+        display: block;
+        width: 100%;
+    }
+
+    #slider-left {
+        width: 100%;
+        /* margin-left: %; */
+    }
+
+    #slider-left h1{
+        /* font-size: 2.6em; */
+        /* line-height: 0.9em; */
+        /* font-weight: 100; */
+        padding-right: 10%;
+    }
+    
+    #slider-left p{
+        font-size: 0.8em;
+        font-weight: 70;
+        padding-top: 20px;
+        padding-right: 20px;
+        letter-spacing: 1px;
+        color: #aaa;
+    }
+
+    #slider-right {
+        width: 100%;
+    }
+}
+/*
+    @End => Slider Part
 */
