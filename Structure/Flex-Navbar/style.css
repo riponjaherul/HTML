@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav a{
+    flex: 1;
+    text-decoration: none;
+    padding: 0.25em;
+    margin: 0.25em;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #555;
+}
+
+@media only screen and (max-width:600px){
+    nav{
+        flex-direction: column;
+    }
+}
